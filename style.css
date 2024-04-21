@@ -1,0 +1,298 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#fafbffb6;
+}
+
+
+header {
+    background-color: #040f40;
+    color: #F2F2F2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+header img{
+    max-width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul li a {
+    
+   font-size: smaller;
+    display: inline-flex;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: #F2F2F2;
+    text-decoration: none;
+    color: #000000;
+   
+}
+.resumo{
+    margin-top: 5px;
+    border-bottom:solid 0.7px white;
+  }
+.atencao{
+    text-decoration: underline;
+    
+}
+.container {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .texto {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5EM;
+    flex: 1;
+    text-align: left;
+  }
+  .imagem {
+    flex: 1;
+    text-align: right;
+  }
+  img {
+    margin: 0  auto;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+  }
+#conteudos{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%;
+    margin-top: 10px;
+   margin-bottom: 20px;
+    padding: 20px;
+    color: #F2F2F2;
+    background-color: #061b77;
+    border: 1px solid #000000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Crete Round', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Young Serif', serif;;
+}
+section h2 {
+    font-size: 1.5em;
+}
+.presencial{
+    color: #EDC605;
+}
+.G{
+color: rgb(79, 79, 250);
+}
+.o{
+color: red;
+}
+.o-2{
+color: yellow;
+}
+.L{
+color: green;
+}
+
+#teccell{
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fdfdfd;
+    margin-top: 20px;
+    background-color:#041049;
+    border: 1px solid #ccc;
+}
+.list-contato{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Crete Round', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Young Serif', serif;;
+     list-style-type: none;
+}
+
+.lista-servico {
+   
+    font-family: 'Bebas Neue', sans-serif;
+font-family: 'Crete Round', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Young Serif', serif;;
+ list-style-type: none;
+      padding: 0;
+
+}
+.lista-servico > li{ 
+     
+   margin: 10px 0;
+    font-size:120%;
+    margin-bottom: 10px;
+}
+.image-servico{
+    max-width: 150px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+.icon {
+    width: auto;
+    text-align: center;
+  }
+  
+.icon img {
+    max-width: 100%; }
+  
+footer {
+    background-color: #010411;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color:#040f40;
+    min-width: 100px;
+    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content li a {
+    color:#032929;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:active {
+    background-color:#D9AA71;
+    color:#032929;
+}
+
+.dropdown:hover .dropdown-content  {
+    background-color:#D9AA71;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+}
+
+
+.botao-solicitar{
+text-decoration: none;
+background-color: #002c5f;
+color: #ffffff;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Crete Round', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Young Serif', serif;;
+border-radius: 10px;
+padding: 10px;
+}
+.botao-solicitar :hover{
+    text-decoration: none;
+ 
+color: #ccc;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Crete Round', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Young Serif', serif;;
+border-radius: 10px;
+padding: 10px;
+    color: #e5bb87;
+}
+/* apartir daqui só teste !!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+#pag-curso{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%;
+    margin-top: 20px;
+   margin-bottom: 20px;
+    padding: 20px;
+    color: #ccc;
+    background-color: #011a1a;
+    border: 1px solid #ccc;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Crete Round', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Young Serif', serif;;
+}
+.titulo-conteudo{
+color: #EDC605;
+}
+.lista-servico > img{
+border-radius: 10px;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+  
+.marcas{
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 16px 0px #011313
+}
