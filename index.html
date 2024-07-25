@@ -2,166 +2,126 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CODING TECH</title>
+    <title>CODING TECH - Agência de Marketing Digital</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crete+Round&family=Kanit:ital@1&family=Libre+Franklin:wght@500&family=Merriweather&family=Oswald&family=Roboto+Condensed:ital@1&family=Roboto:wght@400;500&family=Young+Serif&display=swap');
-  </style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    </style>
 <body>
-    <header>
-        <img src="midia/logo diogo.png" alt="" width="50%" max-width="100px">
-        <nav>
-            <ul>
-                <li><a href="servico/servico.html" id="cursos">CURSOS</a></li>
-
-                <li><a href="desbloqueio/desbloqueio.html">DESBLOQUEIO</a></li>
-                       
-               <li><a href="projetos/projetos.html">PROJETOS</a></li>
-
-              <li><a href="sobre/sobre.html">SOBRE NÓS</a></li>
-    
-               </ul>
-        </nav>
-      
-        
-    </header>   
-
-    
-<section id="conteudos">
- <h1 class="titulo-conteudo">DESBLOQUEIOS <br> IPHONES</h1>
+    <header class="header">
         <div class="container">
-          
-          <div class="texto" id="texto">
-            <p>DESBLOQUEIO REMOTO, SEM SAIR DE CASA...</p>
-              
-          </div>
-          <div class="imagem">
-            <img src="https://nipocell.com.br/wp-content/uploads/2020/11/unblock-icloud-510x1024.png" alt="" width="70%">
-          </div>
+            <img src="midia/logo diogo.png" alt="Logo Coding Tech" class="logo" style="width: 50%; max-width: 300px;">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-          <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;" class="resumo">O desbloqueio definitivo de iCloud é um serviço que desvincula completamente o aparelho da atual conta. Para a realização do desbloqueio definitivo, não aceitamos aparelhos em modo lost(perdido) ou com restrição no IMEI.</p>
-              <script>
-                
-                var textoCompleto = "DESBLOQUEIO REMOTO, SEM SAIR DE CASA...";
-              
-                
-                function exibirTextoComEfeito() {
-                  var texto = "";
-                  var index = 0;
-                  var velocidade = 50; 
-              
-                  function mostrarProximoCaractere() {
-                    texto += textoCompleto.charAt(index);
-                    document.getElementById("texto").innerText = texto;
-                    index++;
-                    if (index < textoCompleto.length) {
-                      setTimeout(mostrarProximoCaractere, velocidade);
-                    }
-                  }
-              
-                  mostrarProximoCaractere();
-                }
-              
-               
-                window.onload = exibirTextoComEfeito;
-              </script>
-              
-               
-        <iframe width="289" height="513" border-radius="20px" src="https://www.youtube.com/embed/78k_ryoO4nQ" title="Desbloqueio iCloud, iPhone X" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
-        <button class="botao-solicitar"><a href="desbloqueio/desbloqueio.html" style="text-decoration: none; color: rgb(247, 244, 240);">SOLICITAR DESBLOQUEIO</a>
-        </button>
-    </section>
-    <section id="conteudos">
-        <h1 class="titulo-conteudo">SERVIÇO</h1>
-        <ul class="lista-servico">
-            <li>Criação de Sites</li>
-           
-            <li>Desbloqueio de iPhones</li>
-            
-            <li>Desbloqueio de Xiaomi</li>
-           
-            <li>Desbloqueio de contas do Google</li>
+    </header>
 
-            <li>Update e Restauração de Android e Iphones</li>
-            
-            <li>Recuperação de sistemas</li>
-           
-        </ul>
-        <div class="icon-container">
-            
-            <div class="icon">
-              <img src="midia/logo-apple.png" alt="Ícone 2" width="50%" style="max-width: 90px;">
+    <section id="banner" class="banner">
+        <div class="container" >
+            <h1 class="banner-title">Transforme sua presença digital conosco</h1>
+            <p class="banner-text">Especialistas em gestão de tráfego, desenvolvimento de websites e desbloqueio de celulares.</p>
+            <a href="#servicos" class="banner-btn">Conheça nossos serviços</a>
+        </div>
+    </section>
+<hr>
+    <section id="servicos" class="section">
+        <div class="container">
+            <div class="servico">
+               
+                <h3>Gestão de Tráfego</h3>
+                <p>Otimizamos campanhas para aumentar o tráfego qualificado para seu site e redes sociais.</p> <img src="midia/Black Pink and Blue Modern Website Traffic Graph.png" alt="Ícone de Gestão de Tráfego"  width="70%">
+                <ul>
+                    <li>Análise de mercado e público-alvo</li>
+                    <li>Estratégias de marketing digital</li>
+                    <li>Campanhas de anúncios pagos (Google Ads, Facebook Ads)</li>
+                    <li>Monitoramento e relatórios de desempenho</li>
+                </ul>
             </div>
-            <div class="icon">
-                        <img src="midia/logo-xiaomi.png" alt="Ícone 4" width="50%" style="max-width: 90px;">
-                        </div>
-            <div class="icon">
-              <img src="midia/logo-samsung.png" alt="Ícone 3" width="100%" style="max-width: 90px;">
+            <div class="servico">
+
+                <h3>Criação de Websites</h3>
+                <p>Desenvolvemos sites modernos e responsivos que destacam sua marca na internet.</p><img src="midia/site-teccell.jpeg" alt="Ícone de Website" width="30%">
+                <ul>
+                    <li>Design de interfaces intuitivas</li>
+                    <li>Integração com sistemas de gerenciamento de conteúdo (CMS)</li>
+                    <li>Otimização para dispositivos móveis (responsividade)</li>
+                    <li>Implementação de SEO básico</li>
+                </ul>
             </div>
-            
-           <div class="icon">
-              <img src="midia/logo-android.png" alt="Ícone 1" width="100%" style="max-width: 90px;">
+    
+            <div class="servico">
+                
+                <h3>Desbloqueio de Celulares</h3>
+                <p>Soluções rápidas e seguras para desbloqueio de iPhones e Androids.</p><img src="midia/desbloquieo.jpg" alt="Ícone de Desbloqueio" width="50%">
+                <ul>
+                    <li>Desbloqueio de iPhones e Androids</li>
+                    <li>Recuperação de acesso ao iCloud</li>
+                    <li>Reparo de sistemas operacionais</li>
+                    <li>Serviços de segurança e privacidade</li>
+                </ul>
+                <span><p>Só desbloqueamos com compravação que o dispositivo é do próprio!</p></span>
             </div>
-          </div>
-        <button class="botao-solicitar"><a href="servico/servico.html" style="text-decoration: none; color: antiquewhite;">VER SERVIÇOS</a>
-   </button>
-   
+
+
+        </div>
     </section>
     
-<section id="conteudos">
-        <h2 class="titulo-conteudo">Sobre o Desbloqueio Conta <span class="G">G
-
-        </span><span class="o">o</span>
-            <span class="o-2">o</span>
-            <span class="G">g</span>
-            <span class="L">l</span>
-            <span class="o">e</span> 
-            
-        </h2>
-        <p>
-
-            O bloqueio do Google é uma medida preventiva implementada em dispositivos Android para evitar redefinições de fábrica por pessoas não autorizadas.
-            Um celular com o bloqueio do Google ativado irá solicitar credenciais do Google quando alguém tentar desbloquear conta Google e fazer uma redefinição de fábrica. <br> Devido a esta funcionalidade, o bloqueio do Google também é conhecido como Proteção de Redefinição de Fábrica (FRP).
-        
-            Se você estiver tentando fazer uma redefinição de fábrica e não possui as credenciais do Google, esse método de segurança no Android pode ser um problema. Na maioria dos casos, muitas pessoas não sabem como remover conta do Google do celular.
-            <br>
-            Por isso estamos aqui para te ajudar e solicionar seu problema!
-            </p>
-            <h3 class="presencial">Presencialmente ou Remotamente</h3>
-    </section> 
-            </section>
-    <section id ="teccell">
-
-        <h1 class="titulo-conteudo">Conheça nossos Cursos !</h1>
-        <img src="midia/imagens-cursos.jpeg" alt="site-teccell" width="90%" style="margin-bottom: 20px; border-radius: 3px; max-width: 300px;">
-        <p class="botão-teccell"><a href="servico/servico.html" style="text-decoration: 
-        none; color: rgb(0, 0, 0); background-color: rgb(219, 219, 255); padding: 10px; border-radius: 20px; "><strong>Ver Cursos</strong></a>
-        </p>
-    </section>
-
-    <section id="conteudos">
-        <h2 class="titulo-conteudo">Contato</h2>
-        <div>Entre em contato conosco:
-            <br>
-            <p class="list-contato">Email:devbaiano89@gmail.com</p>
-            <p style="  color: inherit;
-          text-decoration: none;"> (75) 9 9979-6078 </p>
-            <div class="whatsapp-float">
-                <a href="https://api.whatsapp.com/send?phone=5575999869570&text=Ol%C3%A1,%20vim%20atrav%C3%A9s%20do%20site!">
-                  <img src="midia/whatsapp.png" alt="WhatsApp" width="50px">
-                </a>
-              </div>
-              
+    <section id="empresas-parceiras" class="section bg-gray">
+        <div class="container">
+            <h2 class="section-title">Rede de Atuação</h2>
+            <div class="logos-parceiros">
+                <div class="logo-parceiro">
+                    <img src="midia/visionarts.png" alt="Logo Parceiro 1">
+                </div>
+                <div class="logo-parceiro">
+                    <img src="midia/teccel.png" alt="Logo Parceiro 2">
+                </div>
+                <div class="logo-parceiro">
+                    <img src="midia/papo-sem-filtro.png" alt="Logo Parceiro 3">
+                </div>
+                <!-- Adicione mais logos conforme necessário -->
+            </div>
         </div>
-        
     </section>
-    <footer>
-        <p>&copy; 2023 CODING TECH. Todos os direitos reservados.</p>
+  
+        </div>
+    </section>
+
+    </section>
+    <section id="sobre" class="section">
+            <div class="container">
+                <h2 class="section-title">Sobre Nós</h2>
+                <p>Somos uma agência especializada em marketing digital, focada em oferecer soluções eficientes para nossos clientes.</p>
+                <p>Nosso objetivo é proporcionar resultados reais através de estratégias personalizadas e inovadoras.</p>
+            </div>
+        </section>
+        <hr>
+        <section id="final" class="section">
+            <div class="container">
+                <img src="midia/logo diogo.png" alt="" width="150px" >
+                <div>
+                    <ul class="social-icons">
+                        <li><img src="midia/whatsapp.png" alt="WhatsApp" width="40px"><p>75 99812-6890</p></li>
+                        <li><img src="midia/instagram.png" alt="Instagram" alt="" width="40px"><p>@coding.tech.br</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    <footer class="footer">
+            <p>&copy; 2024 CODING TECH. Todos os direitos reservados.</p>
+        </div>
     </footer>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>
